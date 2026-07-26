@@ -1,23 +1,68 @@
 aid: endogastric-solutions
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/endogastric-solutions.png
 name: Endogastric Solutions
-description: Endogastric Solutions is a company surfaced as a portfolio company of canaan-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  EndoGastric Solutions is a medical device company focused on treating
+  gastroesophageal reflux disease (GERD). Its flagship offering is the TIF
+  (Transoral Incisionless Fundoplication) 2.0 procedure, performed with the
+  EsophyX Z+ device and SerosaFuse non-resorbable polypropylene fasteners to
+  endoscopically reconstruct the natural antireflux barrier at the
+  esophagogastric junction, plus the combined cTIF procedure that pairs
+  hiatal hernia repair with TIF. The company sells devices and clinician
+  training rather than software, and it has since been acquired by Merit
+  Medical — the endogastricsolutions.com domain now redirects to
+  merit.com/solutions/tif-2-0/. It surfaced in the API Evangelist network as a
+  portfolio company of Canaan Partners and carries no public API, developer
+  portal, SDK, or technical integration surface.
 url: https://raw.githubusercontent.com/api-evangelist/endogastric-solutions/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - canaan-partners
+x-acquired-by: merit-medical
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-note: >-
+  Enrichment 2026-07-19 confirmed EndoGastric Solutions is a physical medical
+  device company (EsophyX / TIF 2.0) now part of Merit Medical, with no public
+  API surface; no API artifacts were applicable.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Medical Devices
+- Healthcare
+- GERD
+- Endoscopy
+- Gastroenterology
+- Medical Technology
 apis: []
+common:
+- type: Website
+  url: https://www.merit.com/solutions/tif-2-0/
+- type: TermsOfService
+  url: https://www.merit.com/merit-medical-terms-conditions/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.merit.com/privacy-policy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
