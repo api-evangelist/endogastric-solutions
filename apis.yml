@@ -37,7 +37,7 @@ x-enrichment-note: >-
   Enrichment 2026-07-19 confirmed EndoGastric Solutions is a physical medical
   device company (EsophyX / TIF 2.0) now part of Merit Medical, with no public
   API surface; no API artifacts were applicable.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
