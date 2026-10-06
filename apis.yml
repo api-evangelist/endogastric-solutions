@@ -50,7 +50,7 @@ x-enrichment-note: >-
   API surface; no API artifacts were applicable.
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Medical Devices
@@ -61,6 +61,10 @@ tags:
 - Medical Technology
 apis: []
 common:
+- url: https://www.merit.com/articles/
+  type: Blog
+- url: https://www.merit.com/feed/
+  type: BlogRSS
 - type: Website
   url: https://www.merit.com/solutions/tif-2-0/
 - type: TermsOfService
